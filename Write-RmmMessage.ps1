@@ -1,5 +1,5 @@
 function Write-RmmMessage {
-	[CmdletBinding()]
+  [CmdletBinding()]
   Param(
     [Parameter(Mandatory=$True)][String]$RmmMessages,
     [Switch]$WriteDebug,
